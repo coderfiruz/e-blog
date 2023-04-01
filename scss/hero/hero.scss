@@ -1,0 +1,24 @@
+.hero-section-image{
+    background-image: url('../image/rail-station.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 5px 0;
+    opacity: 0.7;
+
+    h1, p{
+        color: #000;
+        font-weight: 700;
+        padding: 5px 0;
+        text-align: right;
+        letter-spacing: 1px;
+    }
+
+    button{
+        background-image: linear-gradient(90deg, #7863f1, #2e0de7);
+        margin: 15px 0;
+        margin-left: auto;
+        outline: none;
+        border: none;
+    }
+}

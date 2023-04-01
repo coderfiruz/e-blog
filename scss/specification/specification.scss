@@ -1,0 +1,39 @@
+
+.specification-section{
+    padding: 60px 0;
+
+    .specification-image img{
+        width: 100%;
+        height: 100%;
+    }
+
+
+    .spaces{
+        margin-left: 40px;
+        list-style: none;
+    }
+
+    li{
+        position: relative;
+        margin-bottom: 20px;
+    }
+
+    .spaces li::before{
+        position: absolute;
+        font-family: 'Font Awesome 5 Free';
+        font-size: 2rem;
+        color: rgb(37, 8, 199);
+        content: '\f058';
+        left: -50px;
+        margin-top: -2px;
+    }
+    
+    .brands{
+        margin-top: 60px;
+    }
+
+    .body-image-gap{
+        gap: 20px;
+        opacity: 0.3;
+    }
+}

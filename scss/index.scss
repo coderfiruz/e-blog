@@ -1,0 +1,21 @@
+// Custom.scss
+// Option A: Include all of Bootstrap
+
+// Include any default variable overrides here (though functions won't be available)
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+@import "./nav/navbar.scss";
+@import "./footer/footer.scss";
+@import "./hero/hero.scss";
+@import "./feature/feature.scss";
+@import "./carousel/carousel.scss";
+@import "./call/call.scss";
+@import "./specification/specification.scss";
+@import "./pricing/pricing.scss";
+@import "./contact/contact.scss";
+@import "./download/download.scss";
+@import "./portfolio/portfolio.scss";
+
+
+// Then add additional custom code here
+

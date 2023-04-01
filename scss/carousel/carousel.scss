@@ -1,0 +1,17 @@
+.carousel-section{
+    padding: 20px 0 50px 0;
+}
+
+.carousel-indicators{
+    bottom: 0px;
+    transform: translateY(20px);
+}
+
+.carousel-indicators-item{
+    border: none;
+    width: 1rem important;
+    height: 1rem important;
+    border: 1px solid rgb(109, 106, 106) important;
+    border-radius: 50%;
+    color: #000;
+} 

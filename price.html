@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <!-- <link rel="stylesheet" href="./bootstrap/bootstrap.css"> -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="./css/style.css">
+        <title>Blog with bootstrap & sass</title>
+    </head>
+    <body>
+        <div class="container">
+            <!-- navbar start here -->
+            <nav class="navbar navbar-expand-lg bg-body-secondary">
+                <div class="container">
+
+                    <a class="navbar-brand" href="#">
+                        <img src="./image/stepsize.png" alt="" width="80" height="30">
+                    </a>                    
+
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+
+                            <li class="nav-item">
+                                <a class="nav-link"  href="index.html">Home</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link " aria-current="page" href="about.html">About</a>
+                            </li>                        
+                            
+                            <li class="nav-item">
+                                <a href="blog.html" class="nav-link">Blog</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a href="contact.html" class="nav-link">Contact</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a href="price.html" class="nav-link  active">Price</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a href="download.html" class="btn btn-primary download">Download</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <!-- navbar end here -->            
+        </div>
+
+        <!-- pricing section start here -->
+        <div class="pricing-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 text-center">
+                        <h2 class="display-4">Pricing</h2>
+                        <div class="row">
+                            <div class="col-md-8 offset-2">
+                                <div class="paragraph py-4">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem suscipit qui labore explicabo illum molestiae debitis cupiditate culpa recusandae nobis error ipsum eligendi, inventore delectus ab eaque nisi asperiores ullam odit neque perspiciatis, modi repudiandae.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row my-5 align-items-stretch">
+                    <div class="col-lg-4 mt-4 mt-lg-0">
+                        <div class="price-card">
+
+                            <div class="price-header text-center personal">
+                                <h3>Personal</h3>
+                                <div class="d-flex align-items-baseline justify-content-center">
+                                    <h2 class="display-3">18</h2>
+                                    <span class="d-inline-block ms-3">$/month</span>
+                                </div>
+                            </div>
+
+                            <div class="price-body">
+                                <ul class="feature">
+                                    <li>Lorem ipsum dolor sit amet consectetur.</li>
+                                    <li>Sequi fuga dolorum eaque nobis dolorem.</li>
+                                    <li>Necessitatibus voluptatem fugit iusto vel officia!</li>
+                                    <li>Distinctio, recusandae odit. Repudiandae, consequatur eveniet.</li>
+                                </ul>
+
+                            </div>
+
+                            <div class="vertical-gap"></div>
+                                               
+                            <div class="price-footer">
+                                <button class="btn btn-primary">Buy Now</button>
+                            </div>                            
+                        </div>
+                    </div>
+                    <div class="col-lg-4 mt-4 mt-lg-0">
+                        <div class="price-card">
+                            <div class="price-header text-center professional">
+                                <h3>Professional</h3>
+                                <div class="d-flex align-items-baseline justify-content-center">
+                                    <h2 class="display-3">24</h2>
+                                    <span class="d-inline-block ms-3">$/month</span>
+                                </div>
+                            </div>
+
+                            <div class="price-body">
+                                <ul class="feature">
+                                    <li>Lorem ipsum dolor sit amet consectetur.</li>
+                                    <li>Sequi fuga dolorum eaque nobis dolorem.</li>
+                                    <li>Necessitatibus voluptatem fugit iusto vel officia!</li>
+                                    <li>Distinctio, recusandae odit. Repudiandae, consequatur eveniet.</li>
+                                    <li>Distinctio, recusandae odit. Repudiandae, consequatur eveniet.</li>
+                                </ul>
+
+                            </div>
+
+                            <div class="vertical-gap"></div>
+
+                            <div class="price-footer">
+                                <button class="btn btn-primary">Buy Now</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 mt-4 mt-lg-0">
+                        <div class="price-card">
+                            <div class="price-header text-center business">
+                                <h3>Business</h3>
+                                <div class="d-flex align-items-baseline justify-content-center">
+                                    <h2 class="display-3">48</h2>
+                                    <span class="d-inline-block ms-3">$/month</span>
+                                </div>
+                            </div>
+
+                            <div class="price-body">
+                                <ul class="feature">
+                                    <li>Lorem ipsum dolor sit amet consectetur.</li>
+                                    <li>Sequi fuga dolorum eaque nobis dolorem.</li>
+                                    <li>Necessitatibus voluptatem fugit iusto vel officia!</li>
+                                    <li>Distinctio, recusandae odit. Repudiandae, consequatur eveniet.</li>
+                                    <li>Sequi fuga dolorum eaque nobis dolorem.</li>
+                                    <li>Necessitatibus voluptatem fugit iusto vel officia!</li>
+                                    <li>Distinctio, recusandae odit. Repudiandae, consequatur eveniet.</li>
+                                </ul>
+
+                            </div>
+
+                            <div class="vertical-gap"></div>
+
+                            <div class="price-footer">
+                                <button class="btn btn-primary">Buy Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- pricing section end here -->
+
+        <!--footer start here -->
+        <div class="container my-5">
+            <div class="row">
+                <div class="col-md-4">
+                    <h4>About Us</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus quae maiores quod earum ad fuga?</p>
+                </div>
+                <div class="col-md-4">
+                    <h4>Do you like? Share this!</h4>
+
+                    <div class="social-symbol py-3">
+                        <div class="social-icon">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </div>
+                        <div class="social-icon">
+                            <i class="fa-brands fa-twitter"></i>
+                        </div>
+                        <div class="social-icon">
+                            <i class="fa-brands fa-github"></i>
+                        </div>
+                        <div class="social-icon">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </div>
+                    </div>    
+
+                    <p>
+                        <small>
+                            &copy; untitled | website created with
+                            <a 
+                                href="#"
+                                class="link-like-text text-decoration-none"
+                                title="Create your website with free html template"
+                            >Mashup template</a>/<a 
+                                href="#"
+                                class="link-like-text text-decoration-none"
+                                title="Beatifull free images"
+                            >Unsplash</a>
+                        </small>
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <h4>Subcribe to Newsletter</h4>
+                    <div class="input-group my-3 subcribe-group">
+                        <input 
+                            type="email"
+                            class="form-control"    
+                            placeholder="User's Email"
+                            aria-label="User's Email"
+                            aria-describedby="Basic-addon2"
+                        >
+                        <button class="input-group-text" style="color: #fff;" id="Basic-addon2">Ok</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--footer end here -->
+
+        <script src="./bootstrap/bootstrap.js"></script>
+    </body>
+</html>
